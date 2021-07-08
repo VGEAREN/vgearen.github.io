@@ -1,0 +1,8 @@
+version: 1623049492098
+language: cn
+aomori_widgets:
+  - toc
+  - category
+  - tag
+  - recent_posts
+  - archive
