@@ -6,35 +6,19 @@ on:
       - master
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-18.04
     if: github.event.repository.owner.id == github.event.sender.id
-
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v2
-        with:
-          ref: master
+       - name: Checkout source
+         uses: actions/checkout@v2
+         with:
+           ref: master
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '14'
-
-      - name: Setup Hexo
-        env:
-          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 700 ~/.ssh
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "vgearen@gmail.com"
-          git config --global user.name "vgearen"
-          npm install hexo-cli -g
-          npm install
-
-      - name: Deploy
-        run: |
-          hexo deploy
+       - name: Build and Deploy
+         uses: VGEAREN/hexo-deploy-action@master
+         env:
+           PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY_TOKEN }}
+           PUBLISH_REPOSITORY: VGEAREN/vgearen.github.io # The repository the action should deploy to.
+           BRANCH: deploy  # The branch the action should deploy to.
+           PUBLISH_DIR: ./public # The folder the action should deploy.
