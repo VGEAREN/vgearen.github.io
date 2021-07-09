@@ -103,8 +103,8 @@ theme: hexo-theme-aomori
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/VGEAREN/vgearen.github.io.git
-  branch: master
+  repository: git@github.com:VGEAREN/vgearen.github.io.git
+  branch: deploy
 
 aomori_logo: /images/avatar.jpeg
 
