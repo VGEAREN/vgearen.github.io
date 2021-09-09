@@ -23,7 +23,14 @@ tags: [Webpack]
         minRatio: 0.5
       }))
     ```
-* 3、配置Nginx:
+* 3、configureWebpack中添加plugins
+    ``` js
+    configureWebpack: {
+      ........
+      plugins: webpackPlugins
+    },
+    ```
+* 4、配置Nginx:
     ```
     location / {
         ........
