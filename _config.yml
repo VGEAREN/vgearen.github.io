@@ -138,3 +138,11 @@ aomori_baidu_analytics: ''
 aomori_busuanzi: true
 
 aomori_favicon: 🥷
+
+aomori_baidu_sitepush: true
+
+aomori_google_analytics: 'google1e60a92a204a7d67'
+
+aomori_google_site:
+  enable: true
+  id: WFjn2-goE7hTbT2k6wyjVTkRtS3-GCkC2MYHWrZberg
