@@ -146,3 +146,6 @@ aomori_google_analytics: 'G-P0TXPF79LN'
 aomori_google_site:
   enable: true
   id: WFjn2-goE7hTbT2k6wyjVTkRtS3-GCkC2MYHWrZberg
+
+sitemap:
+  path: sitemap.xml
