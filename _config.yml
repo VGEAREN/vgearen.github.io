@@ -133,7 +133,7 @@ aomori_social:
     type: regular
     url: mailto:vgearen@gmail.com
 
-aomori_baidu_analytics: ''
+aomori_baidu_analytics: 'f4ade471b8784a49eeb3757d00e4971e'
 
 aomori_busuanzi: true
 
@@ -141,7 +141,7 @@ aomori_favicon: 🥷
 
 aomori_baidu_sitepush: true
 
-aomori_google_analytics: 'google1e60a92a204a7d67'
+aomori_google_analytics: 'G-P0TXPF79LN'
 
 aomori_google_site:
   enable: true
