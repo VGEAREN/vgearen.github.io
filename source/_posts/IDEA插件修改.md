@@ -19,11 +19,12 @@ tags: [IDEA Plugins,Crack]
 
 
 * 2、找到需要破解的插件，里面可能有多个jar包，首先排除掉依赖的jar包，找到其中需要破解的jar，使用**JD-GUI或者JEB**打开  
-  *以下步骤可能每个插件破解方式都不一样，这里只是阐述这个插件的破解过程和思路*
 
+*以下步骤可能每个插件破解方式都不一样，这里只是阐述这个插件的破解过程和思路*
 
 * 3、用jd-gui打开jar包，软件激活的按钮是**Activation**,在`META-INF/plugin.xml`中搜索`Activation`  
   然后可以找到这句：
+  
   ``` xml
   <action id="xxx.offlineActivation" class="com.ccnode.codegenerator.O.N" text="Activation" description="Activation"/>
   ```
