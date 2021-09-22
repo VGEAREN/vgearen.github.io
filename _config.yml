@@ -152,4 +152,6 @@ aomori_baidu_site:
   id: code-VmXXNeAW8H
 
 sitemap:
-  path: sitemap.xml
+  path: googlesitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
