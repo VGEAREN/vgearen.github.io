@@ -147,5 +147,9 @@ aomori_google_site:
   enable: true
   id: WFjn2-goE7hTbT2k6wyjVTkRtS3-GCkC2MYHWrZberg
 
+aomori_baidu_site:
+  enable: true
+  id: code-VmXXNeAW8H
+
 sitemap:
   path: sitemap.xml
