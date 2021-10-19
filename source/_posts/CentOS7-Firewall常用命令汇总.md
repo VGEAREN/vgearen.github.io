@@ -7,17 +7,17 @@ tags: [Linux,Firewall,Centos]
 * 1、firewalld启停
 
     ```shell
-    # 启动
-    systemctl start firewalld     
-  
-    # 查看状态
-    systemctl status firewalld   
-   
-    # 下次不会开机启动
-    systemctl disable firewalld   
-  
-    # 关闭
-    systemctl stop firewalld      
+      # 启动
+      systemctl start firewalld     
+    
+      # 查看状态
+      systemctl status firewalld   
+     
+      # 下次不会开机启动
+      systemctl disable firewalld   
+    
+      # 关闭
+      systemctl stop firewalld      
     ```
 
 * 2、常用操作
