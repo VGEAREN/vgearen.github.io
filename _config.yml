@@ -149,7 +149,7 @@ aomori_google_site:
 
 aomori_baidu_site:
   enable: true
-  id: code-VmXXNeAW8H
+  id: code-7fSo4kifHr
 
 sitemap:
   path: googlesitemap.xml
