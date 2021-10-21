@@ -80,19 +80,19 @@ show slave status\G;
 
 ```shell
 # 导出整个数据库结构和数据
-mysqldump -h localhost -uroot -p123456 database > dump.sql
+mysqldump -h localhost -P3306 -uroot -p123456 database > dump.sql
 
 #导出单个数据表结构和数据
-mysqldump -h localhost -uroot -p123456  database table > dump.sql
+mysqldump -h localhost -P3306 -uroot -p123456  database table > dump.sql
 
 #导出整个数据库结构（不包含数据）
-mysqldump -h localhost -uroot -p123456  -d database > dump.sql
+mysqldump -h localhost -P3306 -uroot -p123456  -d database > dump.sql
 
 #导出单个数据表结构（不包含数据）
-mysqldump -h localhost -uroot -p123456  -d database table > dump.sql
+mysqldump -h localhost -P3306 -uroot -p123456  -d database table > dump.sql
 
 #mysqldump 备份导出数据排除某张表
-mysqldump -h localhost -uroot -p123456  -d database table --ignore-table=dbname.tablename > dump.sql 
+mysqldump -h localhost -P3306 -uroot -p123456  -d database table --ignore-table=dbname.tablename > dump.sql 
 ```
 
 
