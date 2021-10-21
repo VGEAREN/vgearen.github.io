@@ -92,8 +92,11 @@ mysqldump -h localhost -P3306 -uroot -p123456  -d database > dump.sql
 mysqldump -h localhost -P3306 -uroot -p123456  -d database table > dump.sql
 
 #mysqldump 备份导出数据排除某张表
-mysqldump -h localhost -P3306 -uroot -p123456  -d database table --ignore-table=dbname.tablename > dump.sql 
+mysqldump -h localhost -P3306 -uroot -p123456  -d database table --ignore-table=dbname.tablename > dump.sql
+
 ```
+mysql 8.0需要添加这一句 `--column-statistics=0` ，不然会报错。
+
 
 
 
