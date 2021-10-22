@@ -19,6 +19,7 @@ jobs:
          uses: VGEAREN/hexo-deploy-action@master
          env:
            PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY_TOKEN }}
+           HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
            PUBLISH_REPOSITORY: VGEAREN/vgearen.github.io # The repository the action should deploy to.
            BRANCH: deploy  # The branch the action should deploy to.
            PUBLISH_DIR: ./public # The folder the action should deploy.

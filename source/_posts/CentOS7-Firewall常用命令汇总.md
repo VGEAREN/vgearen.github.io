@@ -2,6 +2,7 @@
 title: CentOS7 Firewall常用命令汇总
 date: 2021-10-19 14:52:42
 tags: [Linux,Firewall,Centos]
+category: [部署]
 ---
 
 * 1、firewalld启停

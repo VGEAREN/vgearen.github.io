@@ -155,3 +155,10 @@ sitemap:
   path: googlesitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+aomori_search_algolia: true
+
+algolia:
+  applicationID: 'C9PCRC4SH4'
+  apiKey: 'cf471e60b8f2928b368bd880172d4d8d'
+  indexName: 'note_index'

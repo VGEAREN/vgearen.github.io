@@ -2,12 +2,13 @@
 title: 使用compression-webpack-plugin压缩静态资源
 date: 2021-09-08 16:58:48
 tags: [Webpack]
+category: [性能优化]
 ---
 
 
 ## 简介
 由于前端静态资源太大，网络带宽太小，往往要加载很久才能出来，所以通过compression-webpack-plugin压缩静态资源，提升用户体验。
-
+<!-- more -->
 ## 步骤
 * 1、安装插件:
   `npm install compression-webpack-plugin --save-dev`

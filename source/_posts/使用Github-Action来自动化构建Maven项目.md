@@ -2,11 +2,12 @@
 title: 使用Github Action来自动化构建Maven项目
 date: 2021-07-10 10:42:07
 tags: [GitHub Action,Maven]
+category: [部署]
 ---
 
 ## 简介
 本文主要介绍如何把Github仓库中的Maven项目通过Github Action进行自动化构建后生成Jar包，接着拷贝到服务器进行部署。
-
+<!-- more -->
 ## 服务器脚本
 
 * 脚本`application.sh`用于启停应用:

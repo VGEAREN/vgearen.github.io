@@ -2,19 +2,20 @@
 title: Mysql备忘
 date: 2021-10-20 11:27:57
 tags: [Mysql]
+category: [数据库]
 ---
 
 
 
 ### Mysql权限
 
-| 权限分布 | 可设置权限                                                   |
+| 权限分布  | 可设置权限                                                   |
 | :------- | :----------------------------------------------------------- |
-| 表权限   | 'Select', 'Insert', 'Update', 'Delete', 'Create', 'Drop', 'Grant', 'References', 'Index', 'Alter' |
-| 列权限   | 'Select', 'Insert', 'Update', 'References'                   |
-| 过程权限 | 'Execute', 'Alter Routine', 'Grant'                          |
+| 表权限    | 'Select', 'Insert', 'Update', 'Delete', 'Create', 'Drop', 'Grant', 'References', 'Index', 'Alter' |
+| 列权限    | 'Select', 'Insert', 'Update', 'References'                   |
+| 过程权限   | 'Execute', 'Alter Routine', 'Grant'                          |
 
-
+<!-- more -->
 
 #### 用户操作
 

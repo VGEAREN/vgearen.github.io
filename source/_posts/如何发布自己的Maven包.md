@@ -2,12 +2,13 @@
 title: 如何发布自己的Maven包
 date: 2021-10-22 09:26:34
 tags: [Maven]
+category: [开发]
 ---
 
 #### 前言
 
 在开发springboot starter的时候发现，如果写完的starter直接导入已有工程有些问题，还是要上传到maven然后通过maven引入比较规范，但是每次通过网页管理上传maven包太过麻烦，所以配置了一下通过idea直接deploy上私有仓库，下面记录一下过程。
-
+<!-- more -->
 #### 新建Maven库
 
 * 1、以管理员身份登录maven私服
