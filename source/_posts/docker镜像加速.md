@@ -2,7 +2,7 @@
 title: docker镜像加速
 date: 2021-10-22 09:38:35
 tags: [Docker]
-category: [部署]
+category: [服务器]
 ---
 
 对于使用 systemd 的系统，请在 /etc/docker/daemon.json 中写入如下内容（如果文件不存在请新建该文件）
