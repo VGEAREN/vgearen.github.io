@@ -21,10 +21,10 @@ tags: [Maven]
 
 * 1、 右键pom --> Maven --> open 'settings.xml'
 
-  ![img](https://note.vgearen.com/如何发布自己的Maven包/img.png)
+  ![img](https://note.vgearen.com/images/如何发布自己的Maven包/img.png)
 
 * 2、配置nexus的账号密码
-    ```
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -43,7 +43,7 @@ tags: [Maven]
 
 * 1、pom中添加一下代码：
 
-    ```
+    ```xml
     <distributionManagement>
         <repository>
             <id>snapshot</id>
@@ -54,10 +54,9 @@ tags: [Maven]
     ```
 
 #### 部署
-![img](https://note.vgearen.com/如何发布自己的Maven包/img_1.png)
+![img](https://note.vgearen.com/images/如何发布自己的Maven包/img_1.png)
 
 maven deploy即可。
 
 **如果你只需要安装在本地maven，只需要maven install**
-
 
