@@ -22,7 +22,7 @@ category: [开发,Java,Maven]
 
 * 1、 右键pom --> Maven --> open 'settings.xml'
 
-  ![img](https://note.vgearen.com/images/如何发布自己的Maven包/img.png)
+  ![img](https://vgearen.github.io/images/如何发布自己的Maven包/img.png)
 
 * 2、配置nexus的账号密码
     ```xml
@@ -55,7 +55,7 @@ category: [开发,Java,Maven]
     ```
 
 #### 部署
-![img](https://note.vgearen.com/images/如何发布自己的Maven包/img_1.png)
+![img](https://vgearen.github.io/images/如何发布自己的Maven包/img_1.png)
 
 maven deploy即可。
 
