@@ -2,7 +2,7 @@
 title: 如何发布自己的Maven包
 date: 2021-10-22 09:26:34
 tags: [Maven]
-category: [开发]
+category: [开发,Java,Maven]
 ---
 
 #### 前言

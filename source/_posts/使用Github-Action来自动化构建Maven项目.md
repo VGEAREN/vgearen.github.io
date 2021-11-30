@@ -2,7 +2,7 @@
 title: 使用Github Action来自动化构建Maven项目
 date: 2021-07-10 10:42:07
 tags: [GitHub Action,Maven]
-category: [部署]
+category: [开发,Github Action]
 ---
 
 ## 简介

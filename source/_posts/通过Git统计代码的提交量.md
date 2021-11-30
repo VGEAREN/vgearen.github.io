@@ -2,7 +2,7 @@
 title: 通过Git统计代码的提交量
 date: 2021-07-08 21:07:26
 tags: Git
-category: [版本管理]
+category: [开发,Git]
 ---
 项目中有时候需要统计代码量，可以通过Git来统计。
 
