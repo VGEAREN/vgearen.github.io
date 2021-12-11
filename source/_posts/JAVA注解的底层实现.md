@@ -56,7 +56,7 @@ public class Test {
 
 ##### AnnotatedElement
 
-这里先简单介绍下`AnnotatedElement `，如果看到后面对某个函数不懂可以倒回来看这里：、
+这里先简单介绍下`AnnotatedElement `，如果看到后面对某个函数不懂可以倒回来看这里：
 
 > AnnotatedElement 接口是所有程序元素（Class、Method和Constructor）的父接口，所以程序通过反射获取了某个类的AnnotatedElement对象之后，程序就可以调用该对象的方法来访问Annotation信息。我们看下具体的先关接口
 >
