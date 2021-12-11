@@ -1,0 +1,78 @@
+widgets:
+  # Profile widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: right
+    type: profile
+    # Author name
+    author: VGEAREN
+    # Author title
+    author_title: Make it count.
+    # URL or path to the avatar image
+    avatar: /images/icon/1233.jpeg
+    # Whether show the rounded avatar image
+    avatar_rounded: true
+    # Email address for the Gravatar
+    gravatar:
+    # URL or path for the follow button
+    follow_link: 'https://github.com/VGEAREN'
+    # Links to be shown on the bottom of the profile widget
+  # Table of contents widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: right
+    type: toc
+    # Whether to show the index of each heading
+    index: true
+    # Whether to collapse sub-headings when they are out-of-view
+    collapsed: true
+    # Maximum level of headings to show (1-6)
+    depth: 3
+  # Recommendation links widget configurations
+  #    -
+  #        # Where should the widget be placed, left sidebar or right sidebar
+  #        position: left
+  #        type: links
+  #        # Names and URLs of the sites
+  #        links:
+  #            Hexo: 'https://hexo.io'
+  #            Bulma: 'https://bulma.io'
+  # Categories widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: categories
+  # Recent posts widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: recent_posts
+  # Archives widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: archives
+  # Tags widget configurations
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: tags
+  # Google FeedBurner email subscription widget configurations
+  #    -
+  #        # Where should the widget be placed, left sidebar or right sidebar
+  #        position: left
+  #        type: subscribe_email
+  #        # Hint text under the email input
+  #        description:
+  #        # Feedburner ID
+  #        feedburner_id: ''
+  # Google AdSense unit configurations
+  #    -
+  #        # Where should the widget be placed, left sidebar or right sidebar
+  #        position: left
+  #        type: adsense
+  #        # AdSense client ID
+  #        client_id: 'ca-pub-265206003218879'
+  #        # AdSense AD unit ID
+  #        slot_id: ''
+  # Follow.it email subscription widget configurations

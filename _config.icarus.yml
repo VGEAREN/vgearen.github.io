@@ -127,14 +127,14 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/VGEAREN'
 # Article related configurations
 article:
     # Code highlight settings
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: monokai
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -220,14 +220,14 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: profile
         # Author name
         author: VGEAREN
         # Author title
         author_title: You only live once.
         # Author's current location
-        location: GZ,CHINA
+        location: GZ, CHINA
         # URL or path to the avatar image
         avatar: /images/icon/1233.jpeg
         # Whether show the rounded avatar image
