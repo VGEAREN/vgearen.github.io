@@ -3,6 +3,7 @@ title: Mysql读写分离
 date: 2021-10-19 14:35:46
 tags: [Mysql, 读写分离]
 category: [开发,Mysql]
+toc: true
 ---
 
 ## 什么是主从复制、读写分离？

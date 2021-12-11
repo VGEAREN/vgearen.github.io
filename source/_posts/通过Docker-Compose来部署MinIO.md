@@ -3,6 +3,7 @@ title: 通过Docker Compose来部署MinIO
 date: 2021-08-05 10:02:59
 tags: [Docker Compose,MinIO]
 category: [开发,Docker]
+toc: true
 ---
 
 ## 简介

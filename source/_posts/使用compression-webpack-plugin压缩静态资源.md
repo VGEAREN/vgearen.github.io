@@ -3,6 +3,7 @@ title: 使用compression-webpack-plugin压缩静态资源
 date: 2021-09-08 16:58:48
 tags: [Webpack]
 category: [开发,webpack]
+toc: true
 ---
 
 

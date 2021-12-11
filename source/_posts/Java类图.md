@@ -3,10 +3,11 @@ title: Java类图
 date: 2021-11-30 14:33:47
 tags: [Java]
 category: [开发,Java]
+toc: true
 ---
 类和类、类和接口、接口和接口之间存在一定关系，UML类图中一般会有连线指明它们之间的关系。关系共有六种类型，分别是**实现关系、泛化关系、关联关系、依赖关系、聚合关系、组合关系**。
 下面引用一下别人的图：   
-![img](https://vgearen.github.io/images/Java类图/1.png)
+![类图](https://vgearen.github.io/images/Java类图/1.png)
 <!-- more -->
 ### 实现关系(Realization)
 很简单，就是`implements`
