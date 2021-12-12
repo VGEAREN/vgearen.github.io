@@ -11,6 +11,8 @@ toc: true
 答案是有的，通过JDK动态代理，创建JDK动态代理有几个条件：
 1. 创建代理对象时需要实现InvocationHandler
 2. 代理过程在invoke中实现
+
+
 <!-- more -->
 下面就通过代码来实现一下：
 
