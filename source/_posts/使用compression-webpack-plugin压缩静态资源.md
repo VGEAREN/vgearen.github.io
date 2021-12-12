@@ -6,8 +6,8 @@ category: [开发,webpack]
 toc: true
 ---
 
-
 ## 简介
+
 由于前端静态资源太大，网络带宽太小，往往要加载很久才能出来，所以通过compression-webpack-plugin压缩静态资源，提升用户体验。
 <!-- more -->
 ## 步骤

@@ -10,15 +10,14 @@ toc: true
 
 答案是有的，通过JDK动态代理，创建JDK动态代理有几个条件：
 1. 创建代理对象时需要实现InvocationHandler
-2. 代理过程在invoke中实现
-
+2. 代理过程在invoke中实现     
 
 <!-- more -->
 下面就通过代码来实现一下：
 
-#### 代理接口方法
+## 代理接口方法
 
-##### 定义接口
+### 定义接口
 
 ```java
 public interface Human {
@@ -30,7 +29,7 @@ public interface Human {
 
 
 
-##### 编写代理方法
+### 编写代理方法
 
 ```java
 public class ActionProxy implements InvocationHandler {
@@ -58,7 +57,7 @@ public class ActionProxy implements InvocationHandler {
 
 
 
-##### 创建代理实例
+### 创建代理实例
 
 ```java
 public static void main(String[] args) {
@@ -102,11 +101,11 @@ Exception in thread "main" java.lang.NullPointerException
 
 
 
-#### 代理接口实例
+## 代理接口实例
 
 当然我们也可以代理接口实例对象，我们先编写一个`Human`类的实现：
 
-##### 实现接口
+### 实现接口
 
 ```java
 public class Chinese implements Human{
@@ -123,7 +122,7 @@ public class Chinese implements Human{
 }
 ```
 
-##### 编写代理方法
+### 编写代理方法
 
 ```java
 public class ActionProxy implements InvocationHandler {
@@ -154,7 +153,7 @@ public class ActionProxy implements InvocationHandler {
 }
 ```
 
-##### 创建代理实例
+### 创建代理实例
 
 ```java
 public class HumanTest {

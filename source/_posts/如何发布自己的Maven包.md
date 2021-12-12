@@ -6,11 +6,12 @@ category: [开发,Java,Maven]
 toc: true
 ---
 
-#### 前言
+## 前言
 
 在开发springboot starter的时候发现，如果写完的starter直接导入已有工程有些问题，还是要上传到maven然后通过maven引入比较规范，但是每次通过网页管理上传maven包太过麻烦，所以配置了一下通过idea直接deploy上私有仓库，下面记录一下过程。
 <!-- more -->
-#### 新建Maven库
+
+## 新建Maven库
 
 * 1、以管理员身份登录maven私服
 
@@ -19,7 +20,7 @@ toc: true
 
 
 
-#### IDEA配置maven settings
+## IDEA配置maven settings
 
 * 1、 右键pom --> Maven --> open 'settings.xml'
 
@@ -41,7 +42,7 @@ toc: true
     </settings>
     ```
 
-#### 配置starter项目
+## 配置starter项目
 
 * 1、pom中添加一下代码：
 
@@ -55,7 +56,7 @@ toc: true
     </distributionManagement>
     ```
 
-#### 部署
+## 部署
 ![img](https://vgearen.github.io/images/如何发布自己的Maven包/img_1.png)
 
 maven deploy即可。

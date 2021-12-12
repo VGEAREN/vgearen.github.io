@@ -6,7 +6,7 @@ category: [开发,Java]
 toc: true
 ---
 
-### 前言
+## 前言
 
 注解的声明如下：
 
@@ -19,7 +19,7 @@ toc: true
 
 
 
-### 底层实现
+## 底层实现
 
 
 
@@ -54,7 +54,7 @@ public class Test {
 
 
 
-##### AnnotatedElement
+### AnnotatedElement
 
 这里先简单介绍下`AnnotatedElement `，如果看到后面对某个函数不懂可以倒回来看这里：
 
@@ -88,9 +88,9 @@ public class Test {
 >
 > 返回直接存在于此元素上的所有注解及注解对应的重复注解容器。与此接口中的其他方法不同，该方法将忽略继承的注解。如果没有注解直接存在于此元素上，则返回长度为零的一个数组。该方法的调用者可以随意修改返回的数组，而不会对其他调用者返回的数组产生任何影响。
 
-##### Class.java
+### Class.java
 
-###### getDeclaredAnnotations
+#### getDeclaredAnnotations
 
 我们进入到`getDeclaredAnnotations`方法中可以发现：`Class.java` 里面实现了`java.lang.reflect.AnnotatedElement`，可以通过调用`Annotation[] getDeclaredAnnotations()`方法获取注解：
 
@@ -121,7 +121,7 @@ final Map<Class<? extends Annotation>, Annotation> declaredAnnotations;
 
 
 
-###### annotationData
+#### annotationData
 
 进入`annotationData()`：
 
@@ -176,7 +176,7 @@ private static class AnnotationData {
 
 
 
-###### createAnnotationData
+#### createAnnotationData
 
 进入`createAnnotationData`，代码太长了就不贴了，这个方法主要做的事情：
 
@@ -194,7 +194,7 @@ Map<Class<? extends Annotation>, Annotation> declaredAnnotations =
 
 
 
-##### AnnotationParser.java
+### AnnotationParser.java
 
 `AnnotationParser`是个啥呢？
 
@@ -202,7 +202,7 @@ Map<Class<? extends Annotation>, Annotation> declaredAnnotations =
 
 
 
-###### parseAnnotations
+#### parseAnnotations
 
 `AnnotationParser.parseAnnotations`又是干啥的呢？
 
@@ -248,7 +248,7 @@ public static Map<Class<? extends Annotation>, Annotation> parseAnnotations(
 
 > parseAnnotations2主要是将parseAnnotation2返回的注解类塞进Map里，然后一起返回
 
-###### parseAnnotation2
+#### parseAnnotation2
 
 而`parseAnnotation2`的作用是
 
@@ -259,7 +259,7 @@ public static Map<Class<? extends Annotation>, Annotation> parseAnnotations(
 
 
 
-###### annotationForMap
+#### annotationForMap
 
 ```java
 public static Annotation annotationForMap(final Class<? extends Annotation> type,
@@ -291,6 +291,6 @@ public static Annotation annotationForMap(final Class<? extends Annotation> type
 > ​			h – 将方法调用分派到的调用处理程序
 > 返回：具有代理类的指定调用处理程序的代理实例，该代理类由指定的类加载器定义并实现指定的接
 
-### 总结
+## 总结
 
 注解的底层实现就是**JDK动态代理**，JDK通过`java.lang.reflect.AnnotatedElement`接口实现对注解的解析。
