@@ -2,7 +2,7 @@
 title: JDK动态代理
 date: 2021-12-11 14:29:40
 tags: [Java]
-category: [开发,Java]
+category: [开发,Java,动态代理]
 toc: true
 ---
 
