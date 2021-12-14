@@ -158,10 +158,14 @@ search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-#comment:
-#    type: disqus
-#    # Disqus shortname
-#    shortname: '张麻子'
+comment:
+    type: gitalk
+    client_id: 2e4013a920c3180ca6ce
+    client_secret: b93a1cc9549933f5f1370e03bf03aac2753bde71
+    repo: https://github.com/VGEAREN/vgearen.github.io
+    owner: VGEAREN
+    admin:
+        - VGEAREN
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
