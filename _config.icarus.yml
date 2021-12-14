@@ -162,7 +162,7 @@ comment:
     type: gitalk
     client_id: 2e4013a920c3180ca6ce
     client_secret: b93a1cc9549933f5f1370e03bf03aac2753bde71
-    repo: https://github.com/VGEAREN/vgearen.github.io
+    repo: vgearen.github.io
     owner: VGEAREN
     admin:
         - VGEAREN
