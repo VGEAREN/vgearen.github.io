@@ -166,6 +166,7 @@ comment:
     owner: VGEAREN
     admin:
         - VGEAREN
+    create_issue_manually: false
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
