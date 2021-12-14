@@ -53,7 +53,7 @@ public class B {
   public String field1;   //成员变量
 
   public void method1() {
-    System.println("在类B的方法1中");
+    System.out.println("在类B的方法1中");
   }
 
   public static void method2() {                 //静态方法
